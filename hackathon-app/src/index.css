@@ -156,13 +156,13 @@ body{
   .gs-stat{min-width:46%}
 }
 
-/* =========================
-   Top navigation (shared Header.js)
-   ========================= */
+
+/* Top navigation (shared Header.js) */
+   
 .app-header{ 
   background:#fff; 
   box-shadow:var(--shadow);
-  position:sticky; /* stays at top when scrolling */
+  position:sticky; 
   top:0; 
   z-index:40;
 }
@@ -178,7 +178,7 @@ body{
   width:36px; 
   height:36px; 
   border-radius:12px; 
-  object-fit:contain; /* keep original logo aspect */
+  object-fit:contain; 
   background:transparent;
   padding:0;
 }
