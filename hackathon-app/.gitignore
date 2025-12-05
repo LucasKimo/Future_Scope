@@ -5,13 +5,10 @@
 
 # dependencies & builds
 node_modules/
-node_modules/.cache/
 **/.cache/
 dist/
 build/
 # logs & misc
 
 .DS_Store
-
-Frontend/
 
