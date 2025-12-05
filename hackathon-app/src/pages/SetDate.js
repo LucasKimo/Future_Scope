@@ -118,10 +118,12 @@ export default function SetDate() {
             className="btn-primary"
             type="button"
             disabled={!isValid}
-            onClick={()=> navigate('/add_goals/goal_summary', { state: { start, end, hours } })}
+            // onClick={()=> navigate('/add_goals/goal_summary', { state: { start, end, hours } })}
+            onClick={()=> navigate('/add_goals/dedicated_time', { state: { start, end, hours } })}
             style={!isValid ? {opacity:.6, cursor:'not-allowed'} : undefined}
           >
-            Continue to Summary
+            {/* Continue to Summary */}
+            Continue to Commitment
           </button>
         </div>
 

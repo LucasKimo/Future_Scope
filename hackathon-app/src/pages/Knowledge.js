@@ -98,9 +98,10 @@ export default function Knowledge() {
         {/* Footer */}
         <div className="gs-actions" style={{ marginTop: 24 }}>
           <button className="btn-outline" type="button">Save Draft</button>
-          <button className="btn-primary" type="button" onClick={() => navigate('/add_goals/dedicated_time')}>
-
-            Continue to Commitment
+          {/* <button className="btn-primary" type="button" onClick={() => navigate('/add_goals/dedicated_time')}> */}
+          <button className="btn-primary" type="button" onClick={() => navigate('/add_goals/timeline')}>
+            {/* Continue to Commitment */}
+            Continue to Timeline
           </button>
         </div>
       </main>
